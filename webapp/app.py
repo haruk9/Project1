@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from pymongo import MongoClient
-from forms import TestForm
+from webapp.forms import TestForm
 
 
 app = Flask(__name__)
