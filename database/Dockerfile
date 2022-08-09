@@ -1,7 +1,0 @@
-FROM postgres:14
-
-ENV POSTGRES_PASSWORD passwd
-
-ENV POSTGRES_DB reg
-
-COPY . .
