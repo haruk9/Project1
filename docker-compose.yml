@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  webapp:
+    build: ./webapp
+    ports:
+      - "8000:8000"
+
+  database:
+    build: ./database
+    ports:
+      - "8001:8001"
