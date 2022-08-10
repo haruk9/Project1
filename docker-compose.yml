@@ -1,6 +1,7 @@
-web:
-  build: .
-  container_name: flaskapp
-  ports:
-    - "80:5000"
+services:
+  web:
+    build: .
+    container_name: flaskapp
+    ports:
+      - "80:5000"
   
